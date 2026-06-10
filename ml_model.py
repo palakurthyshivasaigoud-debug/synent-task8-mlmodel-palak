@@ -206,7 +206,7 @@ fig.text(0.5, 0.03,
          bbox=dict(boxstyle='round,pad=0.7', facecolor='#f0f0f0', edgecolor='#cccccc'))
 plt.tight_layout(rect=[0, 0.15, 1, 1])
 plt.savefig("data/charts/01_pass_fail_distribution.png", dpi=150, bbox_inches="tight")
-plt.close()
+plt.show()
 print("   Saved: 01_pass_fail_distribution.png")
 
 # Chart 2: Study Hours vs Performance
@@ -233,7 +233,7 @@ fig.text(0.5, 0.03,
          bbox=dict(boxstyle='round,pad=0.7', facecolor='#f0f0f0', edgecolor='#cccccc'))
 plt.tight_layout(rect=[0, 0.15, 1, 1])
 plt.savefig("data/charts/02_study_hours_vs_performance.png", dpi=150, bbox_inches="tight")
-plt.close()
+plt.show()
 print("   Saved: 02_study_hours_vs_performance.png")
 
 # Chart 3: Attendance vs Performance
@@ -260,7 +260,7 @@ fig.text(0.5, 0.03,
          bbox=dict(boxstyle='round,pad=0.7', facecolor='#f0f0f0', edgecolor='#cccccc'))
 plt.tight_layout(rect=[0, 0.15, 1, 1])
 plt.savefig("data/charts/03_attendance_vs_performance.png", dpi=150, bbox_inches="tight")
-plt.close()
+plt.show()
 print("   Saved: 03_attendance_vs_performance.png")
 
 # Chart 4: Average Subject Score Distribution
@@ -287,7 +287,7 @@ fig.text(0.5, 0.03,
          bbox=dict(boxstyle='round,pad=0.7', facecolor='#f0f0f0', edgecolor='#cccccc'))
 plt.tight_layout(rect=[0, 0.15, 1, 1])
 plt.savefig("data/charts/04_subject_score_distribution.png", dpi=150, bbox_inches="tight")
-plt.close()
+plt.show()
 print("   Saved: 04_subject_score_distribution.png")
 
 # Chart 5: Model Performance Comparison (will be created after training)
@@ -313,7 +313,7 @@ fig.text(0.5, 0.02,
          bbox=dict(boxstyle='round,pad=0.7', facecolor='#f0f0f0', edgecolor='#cccccc'))
 plt.tight_layout(rect=[0, 0.12, 1, 1])
 plt.savefig("data/charts/06_correlation_heatmap.png", dpi=150, bbox_inches="tight")
-plt.close()
+plt.show()
 print("   Saved: 06_correlation_heatmap.png")
 
 # ============================================================
@@ -477,7 +477,7 @@ fig.text(0.5, 0.03,
          bbox=dict(boxstyle='round,pad=0.7', facecolor='#f0f0f0', edgecolor='#cccccc'))
 plt.tight_layout(rect=[0, 0.15, 1, 1])
 plt.savefig("data/charts/05_model_performance_comparison.png", dpi=150, bbox_inches="tight")
-plt.close()
+plt.show()
 print("   Saved: 05_model_performance_comparison.png")
 
 # ============================================================
@@ -517,3 +517,5 @@ print(f"""
 print("=" * 70)
 print("  ANALYSIS COMPLETE!")
 print("=" * 70)
+
+print("\n  Close each chart window to continue to the next step.\n")
